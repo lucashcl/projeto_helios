@@ -14,7 +14,7 @@ int main() {
       },
       .energia = ENERGIA_MAX   
       };
-   // ligar(&helios, emitirSom);
+   ligar(&helios, emitirSom);
    mover(&helios, baterAsas, mexerPernas);
    return 0;
 }
